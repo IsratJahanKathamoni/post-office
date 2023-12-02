@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.Mail_collector_and_processorController">
+   <children>
+      <Label layoutX="118.0" layoutY="32.0" prefHeight="42.0" prefWidth="426.0" text="Mail collector and processor">
+         <font>
+            <Font name="Times New Roman" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="58.0" layoutY="128.0" mnemonicParsing="false" onAction="#genarate_report_of_loaded_mails_on_vechicles_onclick" prefHeight="54.0" prefWidth="450.0" text=" Generate report of Loaded mails on vehicles">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="58.0" layoutY="200.0" mnemonicParsing="false" onAction="#collect_mail_from_city_mailbox_onclick" prefHeight="54.0" prefWidth="450.0" text="Collect mails from city mailboxes">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="58.0" layoutY="276.0" mnemonicParsing="false" onAction="#Request_truck_repair_onclick" prefHeight="54.0" prefWidth="450.0" text="Request truck repair">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="440.0" layoutY="378.0" mnemonicParsing="false" onAction="#logout_button_onclick" prefHeight="42.0" prefWidth="78.0" style="-fx-background-color: skyblue;" text="logout" />
+   </children>
+</AnchorPane>

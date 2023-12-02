@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="409.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.AdminpannelController">
+   <children>
+      <Label layoutX="180.0" layoutY="48.0" prefHeight="38.0" prefWidth="202.0" text="Admin pannel">
+         <font>
+            <Font name="Times New Roman" size="28.0" />
+         </font>
+      </Label>
+      <Button layoutX="99.0" layoutY="135.0" mnemonicParsing="false" onAction="#addemployeeonclick" prefHeight="50.0" prefWidth="316.0" text="Add employee">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font></Button>
+      <Button layoutX="96.0" layoutY="200.0" mnemonicParsing="false" onAction="#reguest_maintenance_break_onclick" prefHeight="50.0" prefWidth="322.0" text="Request maintenance break">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font></Button>
+      <Button layoutX="99.0" layoutY="271.0" mnemonicParsing="false" onAction="#deleteemployeeonclick" prefHeight="50.0" prefWidth="316.0" text="Delete employee">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font></Button>
+      <Button layoutX="483.0" layoutY="329.0" mnemonicParsing="false" onAction="#logout_button_onclick" prefHeight="38.0" prefWidth="82.0" style="-fx-background-color: skyblue;" text="log out" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" onDragDetected="#sell_stams_record_onclick" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.Postal_record_officerController">
+   <children>
+      <Label layoutX="129.0" layoutY="32.0" prefHeight="47.0" prefWidth="404.0" text="Postal record officer">
+         <font>
+            <Font name="Times New Roman" size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="129.0" layoutY="123.0" mnemonicParsing="false" onAction="#genarate_all_transaction_onclick" prefHeight="44.0" prefWidth="300.0" text="Genarate all transaction">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="129.0" layoutY="187.0" mnemonicParsing="false" onAction="#trac_mail_deliveries_onclick" prefHeight="44.0" prefWidth="300.0" text="Track mail deliveries">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="129.0" layoutY="254.0" mnemonicParsing="false" onAction="#sell_stams_record_onclick" prefHeight="47.0" prefWidth="300.0" text="Sell stams record">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="441.0" layoutY="332.0" mnemonicParsing="false" onAction="#logout_button_onclick" prefHeight="44.0" prefWidth="94.0" style="-fx-background-color: skyblue;" text="logout" />
+   </children>
+</AnchorPane>

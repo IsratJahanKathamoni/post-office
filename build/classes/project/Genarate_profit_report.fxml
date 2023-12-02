@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="project.Genarate_profit_reportController">
+   <children>
+      <Label layoutX="160.0" layoutY="23.0" prefHeight="39.0" prefWidth="294.0" text="Genarate profit report">
+         <font>
+            <Font name="Times New Roman" size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="profitreporttextfeild" layoutX="38.0" layoutY="100.0" prefHeight="200.0" prefWidth="242.0" promptText="write profit report">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </TextField>
+      <TextArea fx:id="outputsectiontextare" layoutX="327.0" layoutY="100.0" prefHeight="200.0" prefWidth="258.0" promptText="out report">
+         <font>
+            <Font name="Times New Roman" size="29.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="38.0" layoutY="340.0" mnemonicParsing="false" onAction="#submit_onclick" prefHeight="39.0" prefWidth="83.0" text="submit" />
+      <Button layoutX="270.0" layoutY="340.0" mnemonicParsing="false" onAction="#show_onclick" prefHeight="39.0" prefWidth="74.0" text="show" />
+      <Button layoutX="456.0" layoutY="340.0" mnemonicParsing="false" onAction="#back_onclick" prefHeight="39.0" prefWidth="83.0" text="back" />
+   </children>
+</AnchorPane>

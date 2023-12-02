@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="457.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="project.Collectmail_from_city_mailboxController">
+   <children>
+      <Label layoutX="112.0" layoutY="32.0" prefHeight="52.0" prefWidth="362.0" text="Collect mail from mail citybox">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mailbox_no_textfield" layoutX="48.0" layoutY="153.0" prefHeight="34.0" prefWidth="184.0" promptText="Mailbox no" />
+      <TextField fx:id="mailbox_zone" layoutX="48.0" layoutY="200.0" prefHeight="34.0" prefWidth="184.0" promptText="Mailbox zone" />
+      <TextField fx:id="number_of_mail_collected_textfeild" layoutX="48.0" layoutY="247.0" prefHeight="34.0" prefWidth="184.0" promptText="Number of mail collected" />
+      <TextField fx:id="outputsectiontextarea" layoutX="356.0" layoutY="125.0" prefHeight="170.0" prefWidth="230.0" />
+      <Button layoutX="48.0" layoutY="378.0" mnemonicParsing="false" onAction="#submit_onclick" prefHeight="26.0" prefWidth="83.0" text="Submit" />
+      <Button layoutX="258.0" layoutY="378.0" mnemonicParsing="false" onAction="#show_onclick" prefHeight="26.0" prefWidth="83.0" text="Show" />
+      <Button layoutX="478.0" layoutY="379.0" mnemonicParsing="false" onAction="#back_onclick" prefHeight="26.0" prefWidth="64.0" text="Back" />
+   </children>
+</AnchorPane>

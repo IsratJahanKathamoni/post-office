@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="458.0" prefWidth="620.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="project.Update_truck_checkupController">
+   <children>
+      <Label layoutX="150.0" layoutY="32.0" prefHeight="46.0" prefWidth="394.0" text="Update truck check up">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="32.0" layoutY="385.0" mnemonicParsing="false" onAction="#submit_onclick" prefHeight="40.0" prefWidth="94.0" text="submit">
+         <font>
+            <Font name="Times New Roman" size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="258.0" layoutY="386.0" mnemonicParsing="false" onAction="#show_onclick" prefHeight="38.0" prefWidth="103.0" text="Show">
+         <font>
+            <Font name="Times New Roman" size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="508.0" layoutY="386.0" mnemonicParsing="false" onAction="#back_onclick" text="Back">
+         <font>
+            <Font name="Times New Roman" size="21.0" />
+         </font>
+      </Button>
+      <TextField fx:id="Engine_condition_textfield" layoutX="28.0" layoutY="139.0" prefHeight="62.0" prefWidth="196.0" promptText="Engine condition" />
+      <TextField fx:id="Wheel_condition_textfield" layoutX="28.0" layoutY="212.0" prefHeight="61.0" prefWidth="196.0" promptText="Wheel condition" />
+      <TextArea fx:id="outputsectiontextarea" layoutX="321.0" layoutY="120.0" prefHeight="200.0" prefWidth="226.0" promptText="output area" />
+   </children>
+</AnchorPane>

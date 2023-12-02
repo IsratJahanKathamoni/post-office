@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="538.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="project.Delete_employeeController">
+   <children>
+      <Label layoutX="167.0" layoutY="30.0" prefHeight="41.0" prefWidth="324.0" text="Delete employee">
+         <font>
+            <Font name="Times New Roman" size="29.0" />
+         </font>
+      </Label>
+      <TextField fx:id="employee_id_textfield" layoutX="35.0" layoutY="167.0" prefHeight="32.0" prefWidth="216.0" promptText="employee id" />
+      <TextField fx:id="delete_reason_textfield" layoutX="35.0" layoutY="216.0" prefHeight="126.0" prefWidth="210.0" promptText="delete reason" />
+      <TextArea fx:id="outputsectiontextarea" layoutX="340.0" layoutY="137.0" prefHeight="200.0" prefWidth="200.0" promptText="output area" />
+      <Button layoutX="32.0" layoutY="457.0" mnemonicParsing="false" onAction="#save_onclick" prefHeight="32.0" prefWidth="86.0" text="save" />
+      <Button layoutX="246.0" layoutY="455.0" mnemonicParsing="false" onAction="#show_onclick" prefHeight="32.0" prefWidth="86.0" text="show" />
+      <Button layoutX="470.0" layoutY="455.0" mnemonicParsing="false" onAction="#back" prefHeight="32.0" prefWidth="74.0" text="Back" />
+   </children>
+</AnchorPane>

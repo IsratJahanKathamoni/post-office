@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="489.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="project.Request_maintanence_breakController">
+   <children>
+      <Label layoutX="134.0" layoutY="34.0" prefHeight="54.0" prefWidth="422.0" text="Request maintanence break">
+         <font>
+            <Font name="Times New Roman" size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="request_title_textfield" layoutX="50.0" layoutY="131.0" prefHeight="46.0" prefWidth="250.0" promptText="Request titel" />
+      <TextField fx:id="Maintanence_break_details_textfield" layoutX="54.0" layoutY="200.0" prefHeight="152.0" prefWidth="250.0" promptText="Write maintanence details" />
+      <TextArea fx:id="outputsectiontextarea" layoutX="356.0" layoutY="131.0" prefHeight="227.0" prefWidth="200.0" promptText="output area" />
+      <Button layoutX="41.0" layoutY="421.0" mnemonicParsing="false" onAction="#submit_onclick" prefHeight="38.0" prefWidth="85.0" text="submit" />
+      <Button layoutX="274.0" layoutY="428.0" mnemonicParsing="false" onAction="#show_onclick" prefHeight="32.0" prefWidth="76.0" text="show" />
+      <Button layoutX="487.0" layoutY="431.0" mnemonicParsing="false" onAction="#back_onclick" prefHeight="26.0" prefWidth="69.0" text="Back" />
+   </children>
+</AnchorPane>
